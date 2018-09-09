@@ -9,7 +9,8 @@ then
     docker run --name db -p 5432:5432 -e POSTGRES_USER=localuser -e POSTGRES_PASSWORD=dev -e POSTGRES_DB=devdb -d postgres:9.6.3
     sleep 5
     echo "Running Migrations"
-    #npm run migrations
+    npm run migrations
+    
 elif [ "$NODE_ENV" = "prod" ]
 then
     echo "Nothing configured for prod"
