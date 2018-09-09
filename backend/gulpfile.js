@@ -10,7 +10,7 @@ const tsOptions = require('./tsconfig.json').compilerOptions;
 tsOptions.typescript = typescript;
 
 const TS_OUT_PATH = 'dist';
-const ALL_TS = ['web.ts', 'src/*.ts', 'src/**/*.ts'];
+const ALL_TS = ['src/*.ts', 'src/**/*.ts'];
 const TEST_TS = ['test/*.ts', 'test/**/*.ts'];
 
 const appProject = ts.createProject('tsconfig.json', tsOptions);
