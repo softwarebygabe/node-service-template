@@ -3,8 +3,8 @@ Microservice starter including a DB, backend server, and frontend.
 
 ## Local Development
 ### Node & NPM
-Node `v8.1.3`
-NPM `v6.4.1`
+* Node `v8.1.3`
+* NPM `v6.4.1`
 
 ### Backend - Database & Server
 #### Getting Started
