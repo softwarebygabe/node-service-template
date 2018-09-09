@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "strictNullChecks": false,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": false,
+        "noImplicitReturns": true,
+        "noImplicitThis": false,
+        "noUnusedLocals": true,
+        "alwaysStrict": true,
+        "lib": [ "es2017", "dom" ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

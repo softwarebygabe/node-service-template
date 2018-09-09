@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "rm -rf dist && gulp",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db-init": "./npm_scripts/dbInit.bash",
+    "db-destroy": "./npm_scripts/dbDestroy.bash"
+  },
+  "dependencies": {
+    "gulp": "3.9.1",
+    "gulp-clean": "0.3.2",
+    "gulp-nodemon": "2.2.1",
+    "gulp-sourcemaps": "2.6.0",
+    "gulp-typescript": "4.0.1",
+    "knex": "0.13.0",
+    "merge2": "1.0.3",
+    "path": "0.12.7",
+    "typescript": "2.4.2"
+  },
+  "devDependencies": {
+    "tslint": "5.8.0",
+    "tslint-eslint-rules": "5.1.0"
+  }
+}
