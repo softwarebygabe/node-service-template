@@ -5,7 +5,8 @@
     "start": "rm -rf dist && gulp",
     "test": "echo \"Error: no test specified\" && exit 1",
     "db-init": "./npm_scripts/dbInit.bash",
-    "db-destroy": "./npm_scripts/dbDestroy.bash"
+    "db-destroy": "./npm_scripts/dbDestroy.bash",
+    "migrations": "./node_modules/.bin/knex migrate:latest --env $NODE_ENV --knexfile ./src/knexfile.ts --cwd ./"
   },
   "dependencies": {
     "gulp": "3.9.1",
@@ -17,7 +18,12 @@
     "lodash": "4.17.10",
     "merge2": "1.0.3",
     "path": "0.12.7",
-    "typescript": "2.7.2"
+    "pg": "7.4.3",
+    "ts-node": "7.0.1",
+    "typescript": "2.7.2",
+    "typescript-node": "0.1.3",
+    "typescript-register": "1.1.0",
+    "typescript-require": "0.2.10"
   },
   "devDependencies": {
     "tslint": "5.8.0",

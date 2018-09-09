@@ -6,7 +6,7 @@ then
     echo "Stop/Rm if currently running..."
     docker stop db || true && docker rm db || true
     echo "Starting Local DB Container"
-    docker run --name db -p 5432:5432 -e POSTGRES_USER=showcase -e POSTGRES_PASSWORD=dev -e POSTGRES_DB=showcasedb -d postgres:9.6.3
+    docker run --name db -p 5432:5432 -e POSTGRES_USER=localuser -e POSTGRES_PASSWORD=dev -e POSTGRES_DB=devdb -d postgres:9.6.3
     sleep 5
     echo "Running Migrations"
     #npm run migrations
