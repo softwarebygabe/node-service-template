@@ -14,7 +14,7 @@
     "gulp-sourcemaps": "2.6.4",
     "gulp-typescript": "4.0.1",
     "knex": "0.13.0",
-    "lodash": "^4.17.10",
+    "lodash": "4.17.10",
     "merge2": "1.0.3",
     "path": "0.12.7",
     "typescript": "2.7.2"
